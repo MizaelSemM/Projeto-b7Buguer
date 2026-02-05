@@ -113,7 +113,8 @@ header img {
 }
 
 .pesquisa {
-    min-height: 40dvh;
+    min-height: 50dvh;
+    height: auto;
     background-color: #1e1e1e;
     display: flex;
     place-items: end;

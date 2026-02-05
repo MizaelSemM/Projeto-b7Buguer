@@ -1,9 +1,5 @@
 @media (max-width: 576px) {
 
-    .pesquisa {
-        height: 40dvh;
-    }
-
     .pesquisa .layout {
 
         height: 50dvh;
