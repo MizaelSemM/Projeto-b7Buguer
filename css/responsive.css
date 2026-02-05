@@ -18,9 +18,13 @@
     }
 }
 
-@media (min-width: 577px) {
+@media (min-width: 577px) and (max-width:1023px) {
     #Inicio {
         min-height: 80dvh;
+    }
+
+    body {
+        outline: 5px solid red;
     }
 
     header h2 {
@@ -71,7 +75,7 @@
 
 @media (min-width: 1024px) {
 
-    #Inicio{
+    #Inicio {
         min-height: 75dvh;
     }
 
@@ -164,7 +168,7 @@
         text-align: start;
     }
 
-    .pesquisa .card-title{
+    .pesquisa .card-title {
         justify-content: start;
     }
 
@@ -176,27 +180,28 @@
         min-height: 30dvh;
     }
 
-    form img{
+    form img {
         top: 40px;
     }
 
-    .pesquisa input{
+    .pesquisa input {
         padding: 15px 40px;
     }
-    .pesquisa select{
+
+    .pesquisa select {
         padding: 15px 40px 15px;
     }
 
-      #Burguers .layout{
+    #Burguers .layout {
         max-width: 100%;
-      }
+    }
 
     #Burguers .layout {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
-    footer .layout{
+    footer .layout {
         grid-template-columns: auto auto;
         justify-content: space-between;
     }

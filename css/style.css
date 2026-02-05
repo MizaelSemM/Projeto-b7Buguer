@@ -105,9 +105,11 @@ header img {
 }
 
 #Inicio .card img {
-    width: 18em;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
     position: absolute;
-    top: 25px;
+    top: 20px;
 }
 
 .pesquisa {
