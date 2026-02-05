@@ -1,0 +1,203 @@
+@media (max-width: 576px) {
+
+    .pesquisa {
+        height: 40dvh;
+    }
+
+    .pesquisa .layout {
+
+        height: 50dvh;
+    }
+
+    #Inicio .card h1 {
+        font-size: 3rem;
+    }
+
+    #Inicio .card p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 577px) {
+    #Inicio {
+        min-height: 80dvh;
+    }
+
+    header h2 {
+        font-size: 2.8rem;
+    }
+
+    header img {
+        width: 2.5rem;
+    }
+
+    #Inicio .card img {
+        min-width: 26em;
+    }
+
+    .pesquisa {
+        min-height: 50vh;
+    }
+
+    #Inicio .card img {
+        top: -30px;
+    }
+
+    .pesquisa .card-title h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        width: 15em;
+    }
+
+    #Inicio .card h1 {
+        font-size: 4rem;
+        margin-bottom: 0px;
+    }
+
+    .layout .card .btn {
+        margin-top: 30px;
+    }
+
+    #Inicio .card p {
+        font-size: 1.4rem;
+    }
+
+    #Burguers .layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    #Inicio{
+        min-height: 75dvh;
+    }
+
+    .nav-bar nav,
+    .header-btn {
+        display: flex;
+    }
+
+    header img {
+        display: none;
+    }
+
+    header .logo {
+        flex: 1;
+    }
+
+    .logo h2 {
+        font-size: 2.2rem;
+    }
+
+    header .nav-bar {
+        flex: 3;
+        justify-content: space-between;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        gap: 20px;
+        margin-left: 50px;
+    }
+
+    .nav-bar li {
+        font-size: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .nav-bar .header-btn {
+        font-size: 1.3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #131313;
+        border: 1px solid #545454;
+        padding: 10px 35px;
+    }
+
+    #Inicio .layout {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        place-items: center;
+    }
+
+    #Inicio .card-info {
+        align-items: start;
+    }
+
+    #Inicio .card-info h1,
+    p {
+        text-align: start !important;
+    }
+
+    #Inicio .card p {
+        font-size: 1.1em !important;
+    }
+
+    #Inicio .card img {
+        min-width: 35em;
+        position: absolute;
+        top: -250px !important;
+    }
+
+    .pesquisa .layout-2-cols {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .pesquisa .card-select {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-top: 27px;
+        width: 90%;
+    }
+
+    .pesquisa .card-input {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        width: 90%;
+    }
+
+    .pesquisa .card-title h2 {
+        font-size: 2.2rem;
+        text-align: start;
+    }
+
+    .pesquisa .card-title{
+        justify-content: start;
+    }
+
+    .pesquisa {
+        min-height: 30dvh;
+    }
+
+    .pesquisa .layout {
+        min-height: 30dvh;
+    }
+
+    form img{
+        top: 40px;
+    }
+
+    .pesquisa input{
+        padding: 15px 40px;
+    }
+    .pesquisa select{
+        padding: 15px 40px 15px;
+    }
+
+      #Burguers .layout{
+        max-width: 100%;
+      }
+
+    #Burguers .layout {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    footer .layout{
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+    }
+}
