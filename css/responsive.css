@@ -1,8 +1,8 @@
 @media (max-width: 576px) {
 
-    .pesquisa .layout {
 
-        height: 50dvh;
+    .pesquisa .layout {
+        height: 67dvh;
     }
 
     #Inicio .card h1 {
@@ -16,7 +16,7 @@
 
 @media (min-width: 577px) and (max-width:1023px) {
     #Inicio {
-        min-height: 80dvh;
+        min-height: 100dvh;
     }
 
     body {
@@ -36,11 +36,11 @@
     }
 
     .pesquisa {
-        min-height: 50vh;
+        min-height: 75vh;
     }
 
     #Inicio .card img {
-        top: -30px;
+        top: -20px;
     }
 
     .pesquisa .card-title h2 {
@@ -136,7 +136,7 @@
     }
 
     #Inicio .card img {
-        min-width: 35em;
+        min-width: 32em;
         position: absolute;
         top: -250px !important;
     }
@@ -169,11 +169,12 @@
     }
 
     .pesquisa {
-        min-height: 30dvh;
+
+        min-height: clamp(35dvh, 40dvh, 45dvh);
     }
 
     .pesquisa .layout {
-        min-height: 30dvh;
+        min-height: clamp(35dvh, 40dvh, 45dvh);
     }
 
     form img {
